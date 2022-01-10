@@ -7,7 +7,7 @@ body {
   color: rgba(0, 0, 0, 0.87);
   font-family: "Montserrat", sans-serif;
   line-height: 1.8;
-  /* margin: 0; */
+  margin: 0;
 }
 
 .topbar {
@@ -18,6 +18,8 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
+  height: 60px;
+  align-items: center;
 }
 
 .nav-items {
@@ -38,4 +40,11 @@ body {
 
 .social-logos {
   width: 80px;
+}
+
+.banner-image {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(https://static-resources.mirai.com/wp-content/uploads/sites/1745/20201211084238/viaje-a-Barcelona-2.jpg);
+  background-size: cover;
+  padding: 160px 0;
+  background-position: center;
 }
