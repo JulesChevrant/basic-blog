@@ -89,7 +89,34 @@ body {
   box-shadow: 8px 5px 5px 1px rgb(0 0 0 / 20%);
 }
 
-.container {
-  width: 900px;
-  margin: 0 auto;
+.container-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  margin: 40px 80px 60px 80px;
 }
+
+.card-article {
+  width: 500px;
+  height: 400px;
+  /* padding: 50px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color: #edf4fc;
+  margin-bottom: 20px;
+}
+
+.card-article p {
+  margin: 0 15px;
+}
+
+/* .card-article:hover {
+  mettre un effet
+} */
