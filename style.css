@@ -16,16 +16,21 @@ body {
   margin: 0;
 }
 
-.topbar {
+/* .topbar {
   background: white;
   justify-content: space-between;
-}
+} */
 
 .navbar {
   display: flex;
   justify-content: space-between;
   height: 60px;
   align-items: center;
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(0, 0, 0);
 }
 
 .nav-items {
@@ -34,25 +39,31 @@ body {
   justify-content: space-evenly;
 }
 
+.logo {
+  width: 250px;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-items a {
-  color: #9F9F9F;
   text-decoration: none;
 }
 
 .nav-items a:hover {
-  color: black;
-  text-decoration: underline;
-}
-
-.social-logos {
-  width: 80px;
+  color: #9F9F9F;
 }
 
 .banner {
   /* margin: auto; */
   /* background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1476242906366-d8eb64c2f661?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80); */
-  background-size: cover;
-  height: 450px;
+  /* background-size: cover; */
+  height: 400px;
   background-position: center;
   display: flex;
   /* padding: 50px 0; */
