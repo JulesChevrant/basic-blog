@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
 * {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.87);
-  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-family: "Poppins", sans-serif;
   line-height: 1.8;
   margin: 0;
 }
@@ -42,9 +48,37 @@ body {
   width: 80px;
 }
 
-.banner-image {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(https://static-resources.mirai.com/wp-content/uploads/sites/1745/20201211084238/viaje-a-Barcelona-2.jpg);
+.banner {
+  /* margin: auto; */
+  /* background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1476242906366-d8eb64c2f661?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80); */
   background-size: cover;
-  padding: 160px 0;
+  height: 450px;
   background-position: center;
+  display: flex;
+  /* padding: 50px 0; */
+}
+
+.banner-container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.btn-contact {
+  /* display: inline-block; */
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+
+.btn-contact:hover {
+  opacity: 0.9;
+  box-shadow: 8px 5px 5px 1px rgb(0 0 0 / 20%);
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
 }
