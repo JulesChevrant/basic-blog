@@ -124,6 +124,7 @@ body {
   width: 100%;
   border-radius: 10px;
   background-image: url("https://picsum.photos/420/200");
+  margin-bottom: 10px;
 }
 
 .card-article p {
