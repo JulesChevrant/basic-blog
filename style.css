@@ -88,17 +88,22 @@ h2 {
 }
 
 .btn-contact {
-  /* display: inline-block; */
+  display: inline-block;
   background-color: black;
   color: white;
   font-weight: bold;
   border-radius: 20px;
   padding: 8px 20px;
+  margin-top: 20px;
+}
+
+.btn-contact a {
+  color: white;
 }
 
 .btn-contact:hover {
   opacity: 0.9;
-  box-shadow: 8px 5px 5px 1px rgb(0 0 0 / 20%);
+  box-shadow: 5px 3px 5px 1px rgb(0 0 0 / 30%);
 }
 
 .main-container {
