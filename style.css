@@ -124,7 +124,7 @@ h2 {
 
 .card-article {
   width: 400px;
-  height: 550px;
+  height: 500px;
   padding: 15px;
   margin: 15px 15px;
   display: flex;
@@ -134,6 +134,10 @@ h2 {
   margin-bottom: 20px;
   flex-direction: column;
   transition: transform 0.5s;
+}
+
+.card-article a {
+  color: black;
 }
 
 .card-article:hover {
